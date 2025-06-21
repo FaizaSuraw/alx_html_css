@@ -16,11 +16,12 @@ Recreate a professional and modern **headphones landing page** that is fully res
 
 To access and inspect the original design:
 
-1. [Open the Figma Project](#) 
+1. [Open the Figma Project](#)
 2. Click on **“Duplicate to your Drafts”** to save a copy and gain full access.
 3. If you face issues accessing the file, try using this backup link: [Figma File](#)
 
 > **Fonts Required:**
+>
 > - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
 > - [Spin Cycle OT](https://www.fonts.com/font/spin-cycle)
 
@@ -39,6 +40,7 @@ The layout adapts gracefully to different screen sizes:
 - **Button hover/active effect**: `opacity: 0.9`
 
 ## 📂 Project Structure
+
 alx_html_css/
 
 └── headphones/
@@ -48,9 +50,6 @@ alx_html_css/
 ├── styles.css
 
 └── README.md
-
-
-
 
 ## 💡 Notes
 
@@ -68,4 +67,3 @@ alx_html_css/
 ## 👤 Author
 
 Project done as part of the [ALX Software Engineering Program](https://www.alxafrica.com/).
-

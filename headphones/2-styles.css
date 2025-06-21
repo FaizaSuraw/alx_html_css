@@ -91,6 +91,48 @@ body {
   opacity: 0.9;
 }
 
+/* What we do section */
+.what-we-do {
+  padding: 80px 20px;
+  background-color: white;
+  color: #333;
+  text-align: center;
+}
+
+.what-we-do h2 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+.service {
+  padding: 20px;
+}
+
+.service .icon {
+  font-size: 48px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.service h3 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 1rem;
+  color: #666;
+}
+
 /* Responsive */
 @media (max-width: 480px) {
   .nav-bar {
@@ -105,4 +147,47 @@ body {
   .hero p {
     font-size: 1rem;
   }
+
+  .services {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Our Results Section */
+.our-results {
+  background-color: #f5f5f5;
+  color: #333;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.our-results h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.our-results p {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat h3 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.stat p {
+  font-size: 1rem;
+  color: #555;
 }
